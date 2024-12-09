@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+        border: none;
+    }
+    .nav-list {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: black;
+        border-radius: 5px;
+        width: 100vw;
+    }
+  
+    .nav-list.active {
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        position: static;
+        box-shadow: none;
+    }
+  
+    .nav-list ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style: none;
+        margin-left: -60%;
+        font-size: 1.2rem;
+    }
+  
+    .nav-link {
+        text-decoration: none;
+        color: white;
+    }
+  }
+  @media screen and (max-width: 786px) {
+    .part1 h1{
+        font-size: 1.6rem!important;
+    }
+    .part1 p{
+        font-size: 0.5rem!important;
+    }
+    .part1 a{
+        font-size: 1rem!important;
+    }
+    .part2 img{
+        width: 80%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 35%;
+    }
+  }
+  @media screen and (max-width: 786px) {
+    #projects h2{
+      font-size: 20px !important;
+      
+    }
+    .prj1{
+        padding: 20px 10px 20px 10px;
+        width: 80%;
+    }
+    .prj1 h3{
+        font-size: 1rem!important;
+      }
+      .prj1 p{
+        font-size: 0.6rem!important;
+      }
+      .prj1 button{
+        padding: 10px;
+        font-size: 0.6rem;
+      }
+  }
+  @media screen and (max-width: 786px){
+    .prj2{
+        padding: 30px 10px 30px 10px;
+        width: 80%;
+    }
+    .prj2 h3{
+        font-size: 15px!important;
+    }
+    .prj2 p{
+        font-size: 0.6rem!important;
+    }
+    .prj2 button{
+        font-size: 0.5rem!important;
+        padding: 10px;
+    }
+    .prj2 img{
+        width: 40%;
+        height: auto;
+    }
+  }
+  @media screen and (max-width: 786px){
+    #about h1{
+        font-size: 3rem!important;
+    }
+    .sec1 h4{
+        font-size: 1rem!important;
+    }
+    .sec1 p{
+        font-size: 0.8rem!important;
+    }
+    .sec2 img{
+        width: 60%;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+  }
+  @media screen and (max-width: 786px){
+    #services h1{
+        font-size: 3rem!important;
+    }
+    .service-item h2{
+        font-size: 1rem!important;
+    }
+    .service-item p{
+        font-size: 0.8rem!important;
+    }
+  }
+  @media screen and (max-width: 786px){
+    #skills h1{
+        font-size: 3rem!important;
+    }
+    .skill-item img{
+        width: 40%;
+    }
+  }
